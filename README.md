@@ -18,4 +18,9 @@ mediante un input pido al usuario que ingrese una cordenada corrspondiente al ej
 Use if para corroborar que no haya ingresado un 0 si es asi contienua el ciclo while
 Usamos  un while y en caso de haber ingresado un 0 le restaremos 1 a intentos e imprimiremos que el numero del ejeX no debe de ser un 0 
 Despues usamos IF Si el numero de intentos es distintos a 0 o sea mayor conntinuamos con el programa y le imprimimos los intentos que le quedan al usuario
-Use de nuevo un If si intentos es igual a 0, se terminara el programa debido al exit() que usamos 
+Pero si (elif) es igual a 0 : Le imprime que se han acabado sus intentos y termina el programa con exit() que lo que hace es salirse del programa o terminarlo 
+Y lo mismo pasa con el ejeY
+
+Y para determinar en que cuadrante esta usamos 
+if para saber si el ejeX y el ejeY son mayores a 0, por lo tanto imprimimos que se encuentra en el cuadrante 1 
+y asi con sus respectivos cuadrantes

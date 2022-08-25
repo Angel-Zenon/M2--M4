@@ -5,8 +5,8 @@ if len(palabra_ingresada) >= 4 and len(palabra_ingresada) <=8 :  #Si la longitud
     print("La palabra se encuentra en el rango, ¡por lo tanto es correcta!!") #imprimimos que la palabra se encuentra en el rango 
 
 elif len(palabra_ingresada) > 8 :   #Si la longitud de la palabra ingresada es meyor a 8 letras
-    letras_faltantes = len(palabra_ingresada) - 8 #le resta 8 a la longitud de la palabra ingresada y la guardamos en letras_faltantes
-    print(f"Solo tiene {len(palabra_ingresada)}Sobran {letras_faltantes} letras")
+    letras_restantes = len(palabra_ingresada) - 8 #le resta 8 a la longitud de la palabra ingresada y la guardamos en letras_faltantes
+    print(f"Solo tiene {len(palabra_ingresada)}Sobran {letras_restantes} letras")
 
 elif len(palabra_ingresada) < 4 :  #Ahora si la palabra ingresada en menor a 4 letras 
     letras_faltantes = 4 - len(palabra_ingresada)  # Se le resta la longitud de la palabra a 4

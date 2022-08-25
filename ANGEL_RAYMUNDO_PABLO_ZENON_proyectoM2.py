@@ -31,12 +31,11 @@ while intentos > 0: #Posteriormente usé el ciclo while mientras que el numero d
         print("El numero del eje X no debe ser 0") #Imprimimos este mensaje en pantalla 
         if intentos != 0: #si intentos no es 0 imprimimos lo siguente
             print(f"Le quedan {intentos} Intentos")
-        elif intentos == 0: #Al igual aqui si intentos ya es sero
+        elif intentos == 0: #Al igual aqui si intentos ya es 0
             print("Sus intentos se han acabado :(")
+            exit()  #Y por el exit() se cierra el programa
         break  #Y volvemos a usar break para terminar el ciclo while  y pasar con el siguiente bloque de codigo
 
-    if intentos == 0:
-        exit()   # Cuando intentos sea 0 detenemos el programa con la sentencia exit()
 
 while intentos > 0:  # En el ciclo while mientras intentos en mayor a 0
     eje_y = int(input("Ingrese el numero para el eje Y(Que no sea el 0): ")) # Solicitamos la cordenada Y y las casteamos a un entero
@@ -51,6 +50,7 @@ while intentos > 0:  # En el ciclo while mientras intentos en mayor a 0
             print(f"Le quedan {intentos} Intentos")  # le imprimimos cuantos intentos le quedan al ususario
         elif intentos == 0: #Si los intentos son 0 le indicmos al usuario que sus intentos se han acabado
             print("Sus intentos se han acabado :(")
+            exit()
         break
 
 if eje_x and eje_y > 0 :   # si el ejeX y el ejeY son mayores a 0

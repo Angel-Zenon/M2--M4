@@ -53,7 +53,7 @@ while intentos > 0:  # En el ciclo while mientras intentos en mayor a 0
             print("Sus intentos se han acabado :(")
         break
 
-if eje_x and eje_y > 0 :   # si el ejeX y el ejeY es mayo a 0
+if eje_x and eje_y > 0 :   # si el ejeX y el ejeY son mayores a 0
     print("Te encuentras en el cuadrante | :) ") #Le imprimimos que esta en el cuadrante 1
 
 elif eje_x < 0 and eje_y > 0 : #y si el ejeX es menor a 0 y el ejeY es mayor 
@@ -62,6 +62,6 @@ elif eje_x < 0 and eje_y > 0 : #y si el ejeX es menor a 0 y el ejeY es mayor
 elif eje_x and eje_y < 0 :  #si el ejeX y el ejeY son menores al 0
     print("Estas en el cuadrante |||") #Le imprimimos que se encuentra en el cuadrante 3
 
-elif eje_x > 0 and eje_y < 0 :  #A l igual aqui si el ejeX es mayor a 0 yen ejeY es menor a 0
+elif eje_x > 0 and eje_y < 0 :  #A l igual aqui si el ejeX es mayor a 0 y el ejeY es menor a 0
     print("Estas en el eje |v") #Imprime que se encuentra en el cuadrante 4
 

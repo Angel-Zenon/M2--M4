@@ -11,3 +11,11 @@ Nuevamente volvi a usar el elif por si la longitud de la palabra es menor a 4 le
 Y por ultimo imprimira la longitud y la palabra
 
 EXPLICACION DEL PROGRAMA Encuentra el cuadrante
+
+Declaro una variable de intentos que permitira llevar un control sobre los fallos del usuario,
+Uso el ciclo while para que se ejecute mientras los intentos sean mayores a 0
+mediante un input pido al usuario que ingrese una cordenada corrspondiente al ejeX y las convierto a un entero, ademas la guardo en una variable
+Use if para corroborar que no haya ingresado un 0 si es asi contienua el ciclo while
+Usamos  un while y en caso de haber ingresado un 0 le restaremos 1 a intentos e imprimiremos que el numero del ejeX no debe de ser un 0 
+Despues usamos IF Si el numero de intentos es distintos a 0 o sea mayor conntinuamos con el programa y le imprimimos los intentos que le quedan al usuario
+Use de nuevo un If si intentos es igual a 0, se terminara el programa debido al exit() que usamos 
